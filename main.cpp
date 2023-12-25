@@ -394,7 +394,7 @@ LRESULT CALLBACK WinFunc(HWND hWnd, UINT Message, WPARAM wParam, LPARAM lParam)
                     text = new char[len];
                     GetWindowText(Edit, text, len);
                     stext = text;
-                    if(stext == "Procop")
+                    if(stext == "LightYagami")
                     {
                         hdc2 = GetDC(Window);
                         Access(hdc2, 1);
